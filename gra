@@ -1,0 +1,62 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication2
+{
+    class Program
+    {
+
+        static void Hej()
+        {
+            Console.WriteLine("Hej");
+
+        }
+            static void Main(string[] args){
+                Console.WriteLine("Witaj. Co chcesz zrobić?");
+                Console.WriteLine("Wybierz 1, aby...");
+                Console.WriteLine("Wybierz 2, aby...");
+                Console.WriteLine("Wybierz 3, aby wyjsc");
+                int wybor = int.Parse(Console.ReadLine());
+            bool GramyDalej = true;
+
+            while (GramyDalej)
+            {
+
+                if (wybor == 1)
+                {
+                    Console.WriteLine("Wybrano opcje 1.");
+                    GramyDalej = false;
+                }
+                if(wybor==2)
+                {
+                    Console.WriteLine("Wybrano opcje 2.");
+                    GramyDalej = false;
+                }
+                if (wybor == 3)
+                {
+                    Console.WriteLine("Wybrano opcje 3.");
+                    GramyDalej = false;
+                }
+
+
+                /*static void Main(string[] args)
+                {
+                    bool GramyDalej = true;
+                    int test = 1;
+                    while (GramyDalej)
+                    {
+                        test = test + 1;
+                        Console.WriteLine("Yo");
+                        if (test == 20)
+                        {
+                            Console.WriteLine("Hej");
+                            GramyDalej = false;
+                        }
+                    }
+                }*/
+            }
+            }
+    }
+}
